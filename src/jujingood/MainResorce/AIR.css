@@ -1,0 +1,97 @@
+.backimg{
+    background-image: url("../imgs/snb1.png");
+    background-size: 100%;
+}
+
+.App {
+    font-family: 'Arial', sans-serif;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5a5f;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #484848;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #074812;
+}
+
+.hero p {
+    font-size: 24px;
+    color: white;
+}
+
+.title{
+    color:aliceblue;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: nowrap;  /* 카드들이 한 줄에 배치되도록 설정 */
+    overflow-X: auto;   /* 가로 스크롤을 가능하게 함 */
+    overflow-wrap: revert;
+    padding: 20px;
+    gap: 20px;  /* 카드들 간의 간격 */
+    width: 100%;  /* 컨테이너의 너비를 100%로 설정 */
+}
+
+
+.card-container::-webkit-scrollbar {
+    height: 8px;  /* 세로 스크롤바 높이 */
+}
+
+.card-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.card-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.card {
+    width: 300px;  /* 카드 너비를 고정 */
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    flex: 0 0 auto;  /* 카드 크기가 자동으로 조정되지 않도록 고정 */
+    background-color: aliceblue;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    padding: 10px;
+}
+
+.card p {
+    padding-left:10px ;
+}
+
+
+

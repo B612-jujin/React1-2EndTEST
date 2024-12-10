@@ -1,0 +1,49 @@
+/* 전체 슬라이더 스타일 */
+.slider-container {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    max-width: 90%; /* 최대 너비를 설정하여 반응형 디자인 */
+    margin: 80px auto;
+    overflow: hidden;
+    padding: 10px;
+}
+
+/* 이미지 래퍼 (애니메이션 효과 적용) */
+.image-wrapper {
+    position: relative;
+    display: flex;
+    transition: transform 1s ease-in-out; /* 1초 슬라이드 효과 */
+}
+
+/* 각 이미지 스타일 */
+.slider-image {
+    width: 500px;
+    height: 400px;
+    display: block;
+}
+
+/* 인디케이터 스타일 */
+.indicator-container {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+/* 개별 인디케이터 스타일 */
+.indicator {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* 활성화된 인디케이터 (현재 선택된 이미지) */
+.indicator.active {
+    background-color: rgb(9, 255, 0);
+}
