@@ -22,13 +22,13 @@ nav a {
 
 .hero {
     text-align: center;
-    padding: 100px 20px;
+    padding:20px 20px;
     background-size: cover;
     background-position: center;
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: 50px;
     color: #074812;
 }
 
@@ -39,6 +39,7 @@ nav a {
 
 .title{
     color:aliceblue;
+    margin: 10px 0 0 40px;
 }
 
 .card-container {
@@ -53,7 +54,8 @@ nav a {
 
 
 .card-container::-webkit-scrollbar {
-    height: 8px;  /* 세로 스크롤바 높이 */
+    height: 12px;  /* 세로 스크롤바 높이 */
+    ;
 }
 
 .card-container::-webkit-scrollbar-thumb {
@@ -91,6 +93,74 @@ nav a {
 
 .card p {
     padding-left:10px ;
+}
+
+
+.attendance-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.attendance-title{
+    text-align: center;
+    color: #4B5842;
+    margin-bottom: 30px;
+}
+
+
+.card-container:visited{
+    background-color: #61dafb;
+}
+/*등장인물 컨테이너 css*/
+.contain_coner{
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    max-width: 100%;
+    max-height: 700px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+/*등장인물 css*/
+.student-card{
+    background-color: #a2c159;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 15px;
+    overflow: hidden;
+    width: 150px;
+    color: #F5F1ED;
+    transition: transform 0.3s ease;
+
+}
+
+.student-card:hover{
+    transform: translateY(-5px);
+}
+
+
+.student-avatar{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.student-info{
+    padding: 15px;
+
+}
+.student-info h3{
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.student-info p{
+    margin-left: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 

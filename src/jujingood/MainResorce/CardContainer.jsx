@@ -8,56 +8,36 @@ import Card from "./Card";
 const listings = [
     {
         id: 1,
-        title:"마고시 최상층",
+        title:"마고특별시 최상층",
         price:10000,
         rating:4.8,
         imageUrl: `${snb}`
     },    {
         id: 2,
-        title:"마고시 최상층",
+        title:"마고그룹 본사",
         price:10000,
         rating:4.8,
         imageUrl: `${snb1}`
     },
     {
         id: 3,
-        title:"마고시 최상층",
+        title:"마고특별시 최하층",
         price:10000,
         rating:4.8,
-        imageUrl: `${snb1}`
+        imageUrl: `${snb}`
     },
     {
         id: 4,
-        title:"마고시 최상층",
+        title:"마고특별시 중앙 공장",
         price:10000,
         rating:4.8,
         imageUrl: `${snb}`
     },
+
+
     {
         id: 5,
-        title:"마고시 최상층",
-        price:10000,
-        rating:4.8,
-        imageUrl: `${snb}`
-    },    {
-        id: 6,
-        title:"마고시 최상층",
-        price:10000,
-        rating:4.8,
-        imageUrl: `${snb}`
-    },
-    {
-        id: 7,
-        title:"마고시 최상층",
-        price:10000,
-        rating:4.8,
-        imageUrl: `${snb}`
-    },
-
-
-    {
-        id: 8,
-        title: "마고시의 상업지구",
+        title: "마고특별시 상업지구",
         price:5000,
         rating:4.4,
         imageUrl: `${snb1}`

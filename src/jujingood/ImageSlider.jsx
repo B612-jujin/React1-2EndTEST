@@ -7,6 +7,7 @@ const ImageSlider = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const images = [
         `${snb}`,
+        `${snb1}`,
         `${snb1}`
     ];
 
