@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from './MainResorce/sidebar/Header';
 import CardContainer from './MainResorce/CardContainer';
 import ImageSlider from './ImageSlider';
@@ -8,7 +8,6 @@ import './MainResorce/AIR.css';
 
 const Home = () => {
     return (
-        <body className="backimg">
         <div>
             <Header />
             <Hero/>
@@ -22,7 +21,6 @@ const Home = () => {
             </div>
             <CharacterContainer/>
         </div>
-        </body>
     );
 };
 

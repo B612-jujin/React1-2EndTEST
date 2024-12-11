@@ -4,7 +4,7 @@ import './Header.css'; // 스타일 파일을 따로 분리할 수도 있습니�
 const Header = () => {
     return (
         <header className="header">
-            <div className="header_logo">My Logo</div>
+            <div className="header_logo">SNB</div>
             <nav className="header_nav">
                 <ul className="header_ul">
                     <li className="header_li"><a className="header_a" href="/">Home</a></li>

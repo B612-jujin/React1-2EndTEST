@@ -1,0 +1,46 @@
+/* CharacterProfile.css */
+
+/* 전체 레이아웃 */
+.character-profile {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+
+/* 사진 부분 */
+.character-profile-image {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.character-profile-image img {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px; /* 사진의 둥근 모서리 */
+}
+
+.character-profile-image video {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px; /* 사진의 둥근 모서리 */
+}
+
+/* 정보 부분 */
+.character-profile-info {
+    flex: 1;
+    font-size: 25px;
+}
+
+.character-profile-info h2 {
+    margin-top: 0;
+}
+
+.character-profile-info p {
+    margin: 5px 0;
+
+}
+
+.character-profile-info strong {
+    font-weight: bold;
+}
